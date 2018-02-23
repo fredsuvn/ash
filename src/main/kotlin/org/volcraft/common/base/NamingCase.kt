@@ -12,6 +12,10 @@ abstract class NamingCase {
     protected abstract val splitter: Splitter
     protected abstract val caseProcessor: CaseProcessor
     protected abstract val joiner: Joiner
+
+    /**
+     * Name of this name-case-rule.
+     */
     abstract val name: String
 
     /**
